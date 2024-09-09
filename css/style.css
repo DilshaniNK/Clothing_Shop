@@ -1,0 +1,11 @@
+/*
+    Author: Dilshani;
+    Theme: Clothing Web side;
+    version: 1.0;
+*/
+
+.container{
+    border: 1px solid red;
+    width: 80%;
+    margin: 5% auto;
+}
