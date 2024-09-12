@@ -3,6 +3,9 @@
     Theme: Clothing Web side;
     version: 1.0;
 */
+
+/*Css for All*/
+
 *{
     margin: 0 0;
     padding: 0 0;
@@ -14,10 +17,67 @@
     width: 80%;
     margin: 0 auto;
     padding: 1%;
+    
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+    
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #305F72;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f18c8e;
 }
 
 /*Css for the navbar section*/
 
 .logo{
-    width: 5%;
+    
+    width: 10%;
+    float: left;
 }
+
+.logo img{
+    width: 140px;
+    height: 70px;
+    overflow: hidden;
+    
+}
+
+.menu{
+    line-height: 66px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* css for the clothing search*/
+.clothes-search{
+    background-image: url(../images/bg2.jpg);
+    padding: 10% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
