@@ -20,11 +20,12 @@
     
 }
 
+
 .img-responsive{
     width: 100%;
-    height: auto;
-    
 }
+ 
+
 
 .clearfix{
     clear: both;
@@ -32,31 +33,27 @@
 }
 
 a{
-    color: #305F72;
+    color: #ff6b81;
     text-decoration: none;
 }
 
 a:hover{
-    color: #f18c8e;
+    color: #ff4757;
 }
 
 /*Css for the navbar section*/
-
 .logo{
-    
+    border: 1px solid black;
     width: 10%;
     float: left;
 }
 
-.logo img{
-    width: 140px;
-    height: 70px;
-    overflow: hidden;
-    
-}
+
+
+
 
 .menu{
-    line-height: 66px;
+    line-height: 30px;
 }
 
 .text-right{
