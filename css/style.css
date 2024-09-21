@@ -25,6 +25,10 @@
     width: 100%;
 }
  
+.img-curve{
+    border-radius: 15px;
+}
+
 
 
 .clearfix{
@@ -74,7 +78,9 @@ h2{
     color: #2f3542;
     font-size: 2rem;
 }
-
+h3{
+    font-size: 1.5rem;
+}
 .float-container{
     position: relative;
 }
@@ -140,4 +146,18 @@ h2{
     width: 28%;
     float: left;
     margin: 2%;
+}
+
+/*Css for food-menu*/
+.foods-menu{
+    background-color: gray;
+}
+
+
+.foods-menu-box{
+    border: 1px solid black;
+    width: 45%;
+    margin: 1%;
+    float: left;
+    padding: 1%;
 }
